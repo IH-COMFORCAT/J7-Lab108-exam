@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,6 +18,13 @@ public class Main {
         }
 
         System.out.println(Arrays.toString(intArrayList.getNumbers()));
+
+        int rand = (int) (Math.random() * 10);
+        System.out.println(rand);
+
+        //Random random = new Random();
+        System.out.println(new Random().nextInt(50, 100));
+
 
     }
 
